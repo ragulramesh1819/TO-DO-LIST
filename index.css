@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.dup-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.main-box{
+    height: 85%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+height: 35%;
+background-image: url('./bg-desktop-dark.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.bottom{
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+    background-color: hsl(235, 24%, 19%);
+}
+.top-inner-box{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    color: white;
+}
+.data
+{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+input{
+    height: 60%;
+    width: 70%;
+    padding-left: 20px;
+    color: black;
+    font-size: large;
+}
+button
+{
+    height: 50%;
+    width: 15%;
+    border-radius: 20px;
+    border:none;
+}
+ul{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+tot-box
+{
+    font: size 3rem;
+    height: 15%;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: -18%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    /* background-color:white; */
+    background-color: hsl(237, 14%, 26%);
+    color:white;
+}
+new-box{
+
+    width: 70%;
+    cursor: pointer;
+    text-decoration: none;
+}
+del-box
+{
+    width: 20%;
+    height: 60%;
+    background-image: url('bxs-trash.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+img
+{
+    height:40%;
+    width: 20%;
+    color: white;
+}
+@media(max-width:400px)
+{
+    .main-box{
+        height: 100%;
+        width: 100%;
+        margin-top: -6%;
+    }
+    .dup-body{
+        height: 100vh;
+        width: 100%;
+        display:contents;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .top{
+    height: 30%;
+    
+    }
+    .bottom{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-inner-box{
+        height: 40%;
+        width: 90%;
+    }
+    h1{
+        height: 50%;
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    .data{
+    height: 30%;
+    width: 100%;
+    }
+    input{
+        height: 60%;
+        width: 70%;
+        padding-left: 10px;
+        font-size:1rem;
+        color: rgb(18, 17, 17);
+    }
+    button
+    {
+        height: 40%;
+        width: 15%;
+        font-size: small    ;
+        border-radius: 15px;
+        border:none;
+    }
+    ul{
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    tot-box
+    {
+        font: size 3rem;
+        height: 14%;
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 0%;
+        padding-left: 5%;
+    }
+    new-box{
+
+        width: 70%;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;  
+    }
+    del-box
+    {
+        width: 20%;
+        height: 60%;
+        background-size: 20px;
+        margin-right: 2%;
+    }
+    img
+    {
+        height:30%;
+        width: 20%;
+        color: white;   
+    }
+    
+}
